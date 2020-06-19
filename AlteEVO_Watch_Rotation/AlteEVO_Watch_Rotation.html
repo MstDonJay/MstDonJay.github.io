@@ -13,24 +13,24 @@
     <style type="text/css">
       body { -ms-touch-action: none; }
     </style>
-    <script type="text/javascript" src="AlteEVO_Watch/files/KeyShotXR.js"></script>
+    <script type="text/javascript" src="AlteEVO_Watch_Rotation/files/KeyShotXR.js"></script>
     <script type="text/javascript">
       var keyshotXR;
 
       function initKeyShotXR() {
         var nameOfDiv = "KeyShotXR";
-        var folderName = "AlteEVO_Watch";
-        var viewPortWidth = 1280;
-        var viewPortHeight = 720;
+        var folderName = "AlteEVO_Watch_Rotation";
+        var viewPortWidth = 1024;
+        var viewPortHeight = 576;
         var backgroundColor = "#FFFFFF";
-        var uCount = 169;
-        var vCount = 1;
+        var uCount = 25;
+        var vCount = 25;
         var uWrap = true;
         var vWrap = false;
-        var uMouseSensitivity = -0.469444;
-        var vMouseSensitivity = 1;
-        var uStartIndex = 168;
-        var vStartIndex = 0;
+        var uMouseSensitivity = -0.0694444;
+        var vMouseSensitivity = 0.15625;
+        var uStartIndex = 12;
+        var vStartIndex = 15;
         var minZoom = 1;
         var maxZoom = 1;
         var rotationDamping = 0.96;
@@ -41,8 +41,8 @@
         var showLoading = true;
         var loadingIcon = "Only_Logo_80x80.png"; // Set to empty string for default icon.
         var allowFullscreen = true; // Double-click in desktop browsers for fullscreen.
-        var uReverse = true;
-        var vReverse = true;
+        var uReverse = false;
+        var vReverse = false;
         var hotspots = {};
         var isIBooksWidget = false;
         
